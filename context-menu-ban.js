@@ -22,7 +22,7 @@ function keyboardUp(e) {
 }
 
 document.onkeydown = function (e) {
-    if (e.ctrlKey && e.key === 'u') {
+    if (e.ctrlKey && e.key === 'u' || e.ctrlKey && e.key === 's') {
         e.preventDefault();
     }
 };
